@@ -1,0 +1,23 @@
+.msg {width: 100%;
+margin: 0;
+line-height: 1rem;}
+
+.msg-text {
+    width: 90%;
+}
+ 
+.msg-arrow {
+float:right;
+position:relative;
+top: 40%;
+}
+
+.message:hover {
+background-color: $darkbrown;
+color: $lightbrown;
+}
+
+.message {
+    overflow:hidden;
+    text-overflow: ellipsis; 
+}

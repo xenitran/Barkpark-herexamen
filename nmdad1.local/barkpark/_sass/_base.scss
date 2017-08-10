@@ -1,0 +1,223 @@
+$lightbrown: rgb(249,232,216);
+$midbrown: rgb(129,78,63);
+$midbrownopa: rgba(129,78,63,0.9);
+$darkbrown: rgb(43,31,28);
+
+$content-width: 85%;
+$main: #19CCAA;
+$font-style: 'Source Sans Pro', sans-serif;;
+
+$link-color: #19CCAA;
+$link-hover-color: $main;
+$heading-font1: 'Alegreya Sans', sans-serif;;
+$heading-font2: 'Unica One', serif;
+
+$light: #E7EDF4;
+$header:  #1D1425;
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+} 
+
+html {font-family: 'Alegreya Sans', sans-serif;}
+
+
+
+.full-img {
+  background: url("http://4.bp.blogspot.com/-XjAKq2vy8Ds/UCJaRjMi3dI/AAAAAAAAAHQ/NR0MDZZZrPY/s1600/hd-dog-wallpaper-with-a-dog-on-his-back-on-the-grass-hd-dogs-wallpapers-backgrounds.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  position:relative;
+  height: 1000px ;
+  opacity: 0.7;
+}
+
+
+
+.formbutton {
+  color: $lightbrown;
+  font-size: 1.7rem;
+  border: 1px solid $darkbrown;
+  text-align: center;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: $lightbrown;
+  width:100%;
+position: relative;
+margin: 0 auto}
+
+.darkbrown {
+background-color: $darkbrown
+}
+
+.fb {background-color: midnightblue}
+
+.tussenform {width:100%;
+text-align: center; }
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.sidepadding {
+
+  padding-right:20px;
+}
+
+.startbuttons {
+  top: 60%;
+  position: absolute;
+  text-align: center;
+    width:350px;
+    margin-left:-180px;
+    left:-50%;
+    -webkit-animation: btnmove 2s 1 forwards ; /* Chrome, Safari, Opera */
+    animation: btnmove 2s 1 forwards ;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes btnmove {
+    100% {left: 50%;}
+}
+
+/* Standard syntax */
+@keyframes btnmove {
+    100% {left: 50%;}
+}
+
+
+
+
+.startbutton:hover {
+  background-color: $darkbrown;
+  color: $main;
+}
+
+
+.startbutton {
+  font-size: 2rem;
+  margin: 10px;
+  padding: 20px 10px;
+    background-color: $midbrownopa;
+  color: $lightbrown;
+  border-radius: 50px;
+}
+
+
+.collection, .collection-item {
+  border: none;
+}
+
+.collection .collection-item, .collection .collection-item:last-child   {
+  border: 1px solid $lightbrown;
+
+}
+
+.collection-item:hover {
+  background-color: $lightbrown;
+}
+
+.collection-item a {
+  text-decoration: none;
+}
+
+
+.btn {
+  height: 100%;
+  line-height: 64px;
+
+}
+
+.btn:hover {
+  background-color: $lightbrown;
+color: $darkbrown;
+}
+
+.light, .light a {background-color: $lightbrown;
+color: $darkbrown}
+
+.ondertitel {
+  background-color: $darkbrown;
+  color: $lightbrown;
+}
+
+.chip {
+  padding: 0 10px;
+  width:100%;
+  background-color: $lightbrown;
+}
+
+
+.secondary-content {color: $darkbrown}
+
+
+
+.tabs .tab a, .tabs .tab a:hover, .tabs .tab a.active {
+  color: $midbrown
+}
+
+.tabs .indicator {
+  background-color: $midbrown;
+}
+
+.message {
+  cursor: pointer;
+  width: 100%;
+  height: 100px;
+border-radius: 50px}
+
+
+
+@media screen and (min-width: 800px) {
+.messages {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+
+}
+
+.chip img {
+  height: 100%;
+  width: 100px;
+  position: relative;
+}
+
+
+
+
+.titel {width: auto;
+margin: 0 auto;}
+
+nav ul a.btn {margin: 0;}
+
+
+.fullwidth {width:100%;
+background-color: $midbrown;}
+
+.round {
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+i.right {margin: 0 5px}
+
+
+
+
+
+
+
+
+.modal-overlay {z-index:1 !important}

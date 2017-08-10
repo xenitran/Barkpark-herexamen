@@ -1,0 +1,77 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        height: 1000px;
+        width: 100%;
+        z-index: 0;
+       }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+
+
+.datacontainer {background-color: $lightbrown;}
+
+// side nav legende
+
+/* The side navigation menu */
+.sidenav {
+    border-radius: 20px;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    top: 64px;
+    right: 0;
+    background-color:$midbrown ;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px;
+    padding-bottom: 20px;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: $lightbrown;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+
+    .sidenav a {font-size: 18px;}
+    
+}
+.legende {padding: 0 20px;}
+
+
+.btn:hover {
+    background-color: $darkbrown;
+    color: $lightbrown;
+}
+
+.parklink {
+    color: $main;
+}
+
+
+
+
+.leaflet-interactive {
+    stroke: rgb(0,0,0);
+    fill-opacity: 0.65;
+}
+
+.filled-in {float:right}

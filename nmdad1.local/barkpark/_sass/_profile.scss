@@ -1,0 +1,95 @@
+
+//profile
+
+.probtn i {
+  font-size: 2rem;
+  color: $darkbrown;
+}
+
+.probtn i:hover {
+  color: $main;
+}
+.btn-flat {
+  padding: 0 0.5rem;
+}
+
+
+.profile-header {
+width:100%;
+}
+
+.header-container{
+  background: url("http://www.freewebheaders.com/wordpress/wp-content/gallery/dogs/bernese-mountain-dog-in-swiss-alps-mountain-web-header.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  position:relative;
+
+}
+
+@media screen and (min-width:600px){
+
+.header-container{
+  height: 350px;
+  }
+}
+
+@media screen and (max-width:600px){
+
+.header-container{
+  height: 200px;
+}
+}
+
+.profile-block{
+  padding: 10px;
+  height: 300px;
+  background-color: $lightbrown;
+}
+
+  .hond {background-color:white;
+  height: 100px;
+  border: solid 1px $darkbrown;
+  margin: 10px 0}
+
+.profile-buttons {
+  width: 100%;
+  height: 70px;
+}
+
+.profile-pic {
+  width: 250px;
+  position:relative;
+  border: 5px solid white;
+  position: relative;
+  top: -180px;
+}
+
+
+.icon {
+  position:relative;
+  top: -200px;
+}
+
+.dog-pic--container {
+  position:relative;
+  height:100%;
+  width: 30%;
+  overflow:hidden;
+}
+
+.dog-info {
+  float:left;
+  margin:0;
+  padding: 10px;
+}
+
+.dog-pic {
+  position: relative;
+  height: 100%;}
+
+
+   .profile-block .row .col {padding: 0;}
+
+   
+   
